@@ -45,7 +45,7 @@ workflows:
           success: true
           failure: false
       google_play:
-        credentials: $project_id
+        credentials: $private_key
         track: production
         submit_as_draft: true
   ios-workflow:
