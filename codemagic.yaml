@@ -7,7 +7,7 @@ workflows:
       android_signing:
         - keystore_reference
       groups:
-        - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS)
+        - GCLOUD_SERVICE_ACCOUNT_CREDENTIALS # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS)
       vars:
         PACKAGE_NAME: "io.codemagic.flutteryaml" # <-- Put your package name here
         GOOGLE_PLAY_TRACK: "alpha"
@@ -45,8 +45,7 @@ workflows:
           success: true
           failure: false
       google_play:
-        credentials: "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCS9/ZjsWutfmru\n0PYA/P46vT9l8oXWdc1Ik5PvTwake2zDW1YmShjcueWVkYqWnCUEi+EN6OM+Lq8W\nk4K7H/4o3PuAm5CM0FQwomTmBmqMwQbBhjT2hKo2BOxKsFTAO00+fHZR+mbsGeas\nUbLJkVbEUfzkD/rp+NzZPslurGtl6N9rJLmQM8zeCIasLUbvg2H0133S5SOsDGWS\n/NaUfSf+b/r7Yucln48ayqkceJggmhrNLh1aIa3lXrtHZe0MKBeaFVpcAsceet4B\nRmeGhaDMFlLCsSiyfeKpDe1WeD0kZwnCTRmnlyeu65moyCbxpT5RvS/hiqSyNdO+\n3UEPUiKlAgMBAAECggEABI/u0Fvw14R8iHgooXxjs5+Ye6Saa9ShgClX9t5kD/rm\niVmeaZcJwV+s7+Zsyq2YsZTaXOPtRUrOM8bK+15BdckcWTrwXbVW3mFK0rWBcmfz\nOtKHdjKalQ2J50H6M4hzu/xBm7GzUbd2c27K0cUxpWuqdyBEM1CpdxNNo0z2Etuq\neWxI6GEPbnRsxGEN1hh4vOr7VB1ovYyeGvDt91TooWK3ztKGynnlPAmDwVJ0/Qlc\nDmZRDviNoYsDkcWjWaO4d7dXnUiMN7AEBk4cCVYV8HBaEPfa2CrJjWDB/+Uhr/oE\nARDmLa5qSH0KYZK5RkGDQigl7+HC7Lj7XdoXdO5PiQKBgQDD50wX0MheimENOL+K\n2S5Gt8cdm9Jf9NRQfJp0iFnMplI84S0q5LQMK08S2WxWz49MU0Q/RvyLTDWY5re+\njUzRWsO2VSlqQBQI5nGinA1IFE3bWCHWl24axV84HgCp0EbmNjpOcDl/CcnT/aXK\nkMg58uVagXCLk2ZyEnQS+8HevQKBgQDADbUVeVV0aCmPOVYn0yPU5oEKShYbWq+C\n7FSIKdRxO91Kee2OEmvuPSotWM0RbUTuMiQSPS5ELGvdanAb26lAjQD1yv6L+YVq\nPcko8LRbIGt8CtdSWsfBPcXAQ6kMsWVW/iTnehv88gSgWs6duyUeVYBLEaPb4gMk\nCRKDtupmCQKBgHcRqT08Z9yWbOCVYk4pLKhM4RgM8nPiIf19jn9PtIzfdlKMZmCQ\nuyI+XIRPZDrrUuSII432Pl8IBfeWG44U4eDJMvUqk86Bfeve7KhyAtyRgrTTv1Vn\nmsNovTQlgC+2aLFZulycd0XQlDxmCZOyJhCaom49CEO9ZmHk92nmXPJdAoGAMZMY\nPEvOsDa3C558S9lntWwuwQ4wuKznAz+n7mIF0ZjnXXMty++bZqrpOT1j6eyvz2Co\nCQE78SMaUNRJzhcckGoVZl0Y6d7l/m+mfmfr1l3/AMz3me2PBKXCZwfQGlOsWhFO\nS2Ys1VVPtmjaTsLhKPxfGoGaL4ce0m15FwDfbqkCgYEAptFn4GchJJy9c6OnASiG\nWMN+BhEwKs1sBEIX1RKAZyuljAmmGDXEiwSQ+GKjNBZiDoKbwjYgnRByp+e0B0cM\nVcokihV65AC/u9vmuAci1EDUCTg5MKotq7KGg1EB8Ns/bA7iV6xzVVBquj/jTPck\n3P6wlB6Li/5zslAqgb5yYFc=\n-----END PRIVATE KEY-----\n"
-
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
         track: $GOOGLE_PLAY_TRACK
         submit_as_draft: true
   ios-workflow:
