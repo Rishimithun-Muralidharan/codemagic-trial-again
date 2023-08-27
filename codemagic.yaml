@@ -45,7 +45,8 @@ workflows:
           success: true
           failure: false
       google_play:
-        credentials: 90999af1fc797a6c3ce80213a9f3b241cc5f9019
+        credentials: "90999af1fc797a6c3ce80213a9f3b241cc5f9019"
+
         track: $GOOGLE_PLAY_TRACK
         submit_as_draft: true
   ios-workflow:
