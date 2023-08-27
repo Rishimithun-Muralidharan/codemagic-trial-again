@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "codemagic-trial-397204",
+  "private_key_id": "d62670dd668dac803c80f052ddfc2b75feeff1a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCCxu4qSLV5wcLP\nfCM3SD5yqVTGVmX15hcTkxeJzrN8a1rgDf1iJT/gJYCc1rlxDkz5hYtgUD9SwZjL\nT/iPMsiDEw7FZQg88U994H7WSUW1SoaSId/XOidMxUHLcEEvxogansYMx6n51ME6\nWt1sd1dQh+UcGU95I5xvGBUowqiqCuuF+1R1lQhYBJ3NrOeQ1fn2OPqKveCyVc/B\nutQtBlEAH8b+9rHK0hFf4VCO51Kc0/3uwCHGNJJjn/nlUBd+Q0S5Pf9LRwqfSlO8\nUkz0fxQNSQRemeZcaHv33Zu0QMWUm31n3S9IwSqdzHs8DZSlT98EW9AToiGpddfH\nMXg2cqFDAgMBAAECggEAHiYHPOdDMv0Y0KVxJur4Po3L9edwHQa81i3oVMQ6u5my\nOwnumqQ0vBNZOY8E9EvUMgf38C2/02+/LkvS5QxTjmgj1RzsD8Sfy0ioZPVCZT93\nk5PMmz0UV034U5Ke7Ikr0ls9FDApfudt3mqZNkqy7eVOS7KIEEjF5RSbuChcIssK\nT+8We5KB2tnYu0+4bOuKg1Omr05/4RSbQ/BhsX4kQSDAULqJQWm1Vw2yvKgD2LhG\ndAeuuM0VtGHao4smtPSyxH+IidZh3NSYNMEEpdFqIeTeVGYDQ1XqjPaMbYZlv6e7\npzSa+SK8Ld5LZZ2zsbshmxmikOQYa6RMbizSNLEg6QKBgQC4nH1Qhlihk65BRJaq\npRMx5aKE8EF2EVLocw5NgOfWTHBKCTedlUg5c40w2kvt4PEN6+rJmzav8unxUBKS\n6EqICRvCvgz5OaFf+vDO2abWWAp+xSG/OT77poS0V5le3mY2YJlU4w/csCDBW4og\nVTIlp7xH2g1GW/P8Lu3RNAON6wKBgQC1WSWpaG3HHQ/OCGww/5YGWFfeH7bhBkcs\niByo73mECsCv9khcP3OMl/0aPCn+ufhAE0RQx9RjaS/YJmVBjZpURm5qpnmSMbFw\nx7BPTK9JuX9HSHQrFFU+j0sSHFQdxmPaAKkzhOZtZFBZuqz2TyuR9n0OeP320ONc\nhd3/jPrsCQKBgQCr8NxqVmZQPwrKMUaesta432bJqDdf7uyoIRkOKGRFXLYszn7l\nHzfAgpXbDUYwzRPWYocvtIdvwrAPGAPkncNlBg68B2Rv7zQU/9Su41qXQjKsNZCj\n2H6HxWTNztTC3iKWvMuymzSX19b6H/b6/D6TgbFDvpwkjtokY9UNxwMUdwKBgH0N\n2YvF6JW687AnXLw5M7Jybz1Mb2cjVideQS053njwlUmCMwnx83OLR800mdz/TzKY\nVq7B7jMTURvj9kVLKZZd7zx6SjFHNU5JVcqJXgMf+KYmT315iwMV+zWk9ViG+0pU\n1Fkjl2buGv6VXTqJA8mmyTwWsULnbzHZWmokRNBJAoGAbhuTjqP+M2/2DSVGdWON\n3CcVDGkA0/XbgOUeApE3oJf92kGXmVwLqRo+ZEb1gMD1c9Il9YGGH2nKpqiwHQuO\nivb1jbAYaR5DfmOczwb26CcIqkaWZ05AcMYwIrjsOtqFqugYrZD38Y1gzFhyYhYr\npTRLIMVYdf6+qSD5LCH45dc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "codemagic-trial@codemagic-trial-397204.iam.gserviceaccount.com",
+  "client_id": "109164304835910551023",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/codemagic-trial%40codemagic-trial-397204.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
